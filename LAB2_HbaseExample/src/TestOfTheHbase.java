@@ -36,10 +36,10 @@ public class TestOfTheHbase {
      * @Time:8:19 AM
     */
     public void Test_CreateTable(){
-//        String tablename="student";
-//        String[] columns=new String[]{"Student_ID","Student_Major","Student_Name","Student_Info"};
-        String tablename="members";
-        String[]columns=new String[]{"Member_ID","Member_Major","Member_Name","Member_Info"};
+        String tablename="student";
+        String[] columns=new String[]{"Student_ID","Student_Major","Student_Name","Student_Info"};
+//        String tablename="members";
+//        String[]columns=new String[]{"Member_ID","Member_Major","Member_Name","Member_Info"};
         try{
             HbaseTheExample.createTable(tablename,columns);
             HbaseTheExample a=new HbaseTheExample();

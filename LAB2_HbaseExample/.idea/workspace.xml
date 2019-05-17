@@ -15,33 +15,20 @@
       <file leaf-file-name="HbaseTheExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HbaseTheExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="346" column="7" lean-forward="true" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+            <state relative-caret-position="114">
+              <caret line="365" column="49" lean-forward="true" selection-start-line="365" selection-start-column="49" selection-end-line="365" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#deleteColumn#0;class#HbaseTheExample#0" />
-                <element signature="method#insertRow#0;class#HbaseTheExample#0" />
-                <element signature="method#deleteRow#0;class#HbaseTheExample#0" />
-                <element signature="method#getData#0;class#HbaseTheExample#0" />
-                <element signature="method#displayCell#0;class#HbaseTheExample#0" />
-                <element signature="method#clearTable#0;class#HbaseTheExample#0" />
-                <element signature="method#showDetailsOfTable#0;class#HbaseTheExample#0" />
-                <element signature="method#listAllTable#0;class#HbaseTheExample#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbaseExample.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HbaseExample.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="TestOfTheHbase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestOfTheHbase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+            <state relative-caret-position="-195">
+              <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,7 +39,7 @@
       <file leaf-file-name="HTableDescriptor.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/HTableDescriptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="2643">
               <caret line="1275" column="29" selection-start-line="1275" selection-start-column="29" selection-end-line="1275" selection-end-column="29" />
             </state>
           </provider>
@@ -61,7 +48,7 @@
       <file leaf-file-name="Admin.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="8094">
               <caret line="477" column="7" selection-start-line="477" selection-start-column="7" selection-end-line="477" selection-end-column="7" />
             </state>
           </provider>
@@ -70,7 +57,7 @@
       <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="817">
               <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
             </state>
           </provider>
@@ -79,7 +66,7 @@
       <file leaf-file-name="Get.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Get.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="2546">
               <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
             </state>
           </provider>
@@ -110,6 +97,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>display</find>
+      <find>deletec</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -140,29 +128,30 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HbaseExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HbaseExample" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB2_HbaseExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2_HbaseExample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HbaseExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HbaseExample" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB2_HbaseExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB2_HbaseExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -258,14 +247,15 @@
       <workItem from="1557819224909" duration="2850000" />
       <workItem from="1557822289501" duration="11936000" />
       <workItem from="1557965166184" duration="7012000" />
+      <workItem from="1557993370168" duration="7877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21798000" />
+    <option name="totallyTimeSpent" value="29675000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -278,7 +268,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37733498" />
+      <window_info anchor="bottom" id="Run" order="2" side_tool="true" weight="0.32627645" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -313,18 +303,69 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HbaseTheExample.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6574">
+          <caret line="346" column="7" lean-forward="true" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestOfTheHbase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/HTableDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24225">
+          <caret line="1275" column="29" selection-start-line="1275" selection-start-column="29" selection-end-line="1275" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9063">
+          <caret line="477" column="7" selection-start-line="477" selection-start-column="7" selection-end-line="477" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18164">
+          <caret line="956" column="18" selection-start-line="956" selection-start-column="18" selection-end-line="956" selection-end-column="18" />
+          <folding>
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HbaseTheExample.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#deleteColumn#0;class#HbaseTheExample#0" />
-            <element signature="method#insertRow#0;class#HbaseTheExample#0" />
-            <element signature="method#deleteRow#0;class#HbaseTheExample#0" />
-            <element signature="method#getData#0;class#HbaseTheExample#0" />
-            <element signature="method#displayCell#0;class#HbaseTheExample#0" />
-            <element signature="method#clearTable#0;class#HbaseTheExample#0" />
-            <element signature="method#showDetailsOfTable#0;class#HbaseTheExample#0" />
-            <element signature="method#listAllTable#0;class#HbaseTheExample#0" />
           </folding>
         </state>
       </provider>
@@ -384,14 +425,6 @@
           <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#deleteColumn#0;class#HbaseTheExample#0" />
-            <element signature="method#insertRow#0;class#HbaseTheExample#0" />
-            <element signature="method#deleteRow#0;class#HbaseTheExample#0" />
-            <element signature="method#getData#0;class#HbaseTheExample#0" />
-            <element signature="method#displayCell#0;class#HbaseTheExample#0" />
-            <element signature="method#clearTable#0;class#HbaseTheExample#0" />
-            <element signature="method#showDetailsOfTable#0;class#HbaseTheExample#0" />
-            <element signature="method#listAllTable#0;class#HbaseTheExample#0" />
           </folding>
         </state>
       </provider>
@@ -446,9 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HbaseExample.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///usr/local/Cellar/hbase/1.2.9/libexec/lib/hbase-client-1.2.9.jar!/org/apache/hadoop/hbase/client/Admin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -458,36 +488,36 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="817">
           <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Get.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="2546">
           <caret line="174" column="13" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/client/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="8094">
           <caret line="477" column="7" selection-start-line="477" selection-start-column="7" selection-end-line="477" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/hbase-client-1.2.9-sources.jar!/org/apache/hadoop/hbase/HTableDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="2643">
           <caret line="1275" column="29" selection-start-line="1275" selection-start-column="29" selection-end-line="1275" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestOfTheHbase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
+        <state relative-caret-position="-195">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -496,18 +526,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HbaseTheExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="346" column="7" lean-forward="true" selection-start-line="346" selection-start-column="7" selection-end-line="346" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="365" column="49" lean-forward="true" selection-start-line="365" selection-start-column="49" selection-end-line="365" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#deleteColumn#0;class#HbaseTheExample#0" />
-            <element signature="method#insertRow#0;class#HbaseTheExample#0" />
-            <element signature="method#deleteRow#0;class#HbaseTheExample#0" />
-            <element signature="method#getData#0;class#HbaseTheExample#0" />
-            <element signature="method#displayCell#0;class#HbaseTheExample#0" />
-            <element signature="method#clearTable#0;class#HbaseTheExample#0" />
-            <element signature="method#showDetailsOfTable#0;class#HbaseTheExample#0" />
-            <element signature="method#listAllTable#0;class#HbaseTheExample#0" />
           </folding>
         </state>
       </provider>

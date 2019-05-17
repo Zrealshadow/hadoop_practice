@@ -13,6 +13,7 @@ import org.apache.hadoop.yarn.webapp.hamlet.Hamlet;
 import org.apache.log4j.BasicConfigurator;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class HbaseTheExample {
@@ -22,12 +23,21 @@ public class HbaseTheExample {
 
     public static void main(String[] args)throws Exception{
         try {
-            createTable("Student", new String[]{"Student_ID", "Student_Major", "Student_info", "Student_Name"});
-            insertRow("Student","kky","Student_ID","","112");
+//            createTable("Student", new String[]{"Student_ID", "Student_Major", "Student_info", "Student_Name"});
+//            insertRow("Student","kky","Student_ID","firstname","112");
+//            insertRow("Student","kky","Student_ID","lastname","221");
+//            insertRow("Student","mmy","Student_ID","firstname","332");
+//            insertRow("Student","miracle","Student_ID","firstname","13333");
+//            insertRow("Student","maybe","Student_ID","","344");
+//            insertRow("Student","Ame","Student_ID","firstname","11200");
+//            insertRow("Student","kky","Student_Major","","Dota");
+//            insertRow("Student","Ame","Student_Major","","Dota2");
+              deleteQualifier("Student","Student_ID","firstname");
         }catch (Exception e){
             e.printStackTrace();
         }
     }
+
 
     /**
      * @Description: init
@@ -36,7 +46,7 @@ public class HbaseTheExample {
      * @Author: Zreal
      * @Date:2019/5/14
      * @Time:4:48 PM
-    */
+     */
 
     public static void init(){
         BasicConfigurator.configure();
@@ -57,7 +67,7 @@ public class HbaseTheExample {
      * @Author: Zreal
      * @Date:2019/5/14
      * @Time:4:48 PM
-    */
+     */
     public static void close(){
         try{
             if(admin!=null){
@@ -69,7 +79,6 @@ public class HbaseTheExample {
             e.printStackTrace();
         }
     }
-    
     /**
      * @Description: createTable
      * @Param: [myTableName, colFamily]
@@ -188,6 +197,51 @@ public class HbaseTheExample {
         close();
     }
 
+    public static void deleteQualifier(String tablename, String colFamily,String qualifier)throws  Exception{
+        init();
+        TableName tn=TableName.valueOf(tablename);
+        Table table=connection.getTable(tn);
+        Scan scan=new Scan();
+        scan.addColumn(colFamily.getBytes(),qualifier.getBytes());
+        ResultScanner results=table.getScanner(scan);
+        List<Delete> Deletes=new ArrayList<>();
+        for(Result result:results){
+            Delete delete=new Delete(result.getRow());
+            delete.addColumn(colFamily.getBytes(),qualifier.getBytes());
+            Deletes.add(delete);
+        }
+        table.delete(Deletes);
+        table.close();
+        System.out.println("delete is finished");
+        close();
+    }
+
+    /**
+     * @Description: deleteRow
+     * @Param: [tableName, rowKey, colFamily, col]
+     * @return void
+     * @Author: Zreal
+     * @Date:2019/5/14
+     * @Time:4:50 PM
+     */
+
+    public static void deleteRow(String tableName,String rowKey,String colFamily,String col)throws Exception{
+        init();
+        Table table=connection.getTable(TableName.valueOf(tableName));
+        Delete delete=new Delete(rowKey.getBytes());
+        //删除指定列族的数据
+        if(colFamily!=null) {
+            delete.addFamily(colFamily.getBytes());
+        }
+        //删除指定列的数据
+        if(col!=null){
+            delete.addColumn(colFamily.getBytes(),col.getBytes());
+        }
+
+        table.delete(delete);
+        table.close();
+        close();
+    }
     /**
     *向某一行插入数据 put
     *@param tableName 表名
@@ -206,31 +260,7 @@ public class HbaseTheExample {
         close();
     }
 
-    /**
-     * @Description: deleteRow
-     * @Param: [tableName, rowKey, colFamily, col]
-     * @return void
-     * @Author: Zreal
-     * @Date:2019/5/14
-     * @Time:4:50 PM
-    */
-    public static void deleteRow(String tableName,String rowKey,String colFamily,String col)throws Exception{
-        init();
-        Table table=connection.getTable(TableName.valueOf(tableName));
-        Delete delete=new Delete(rowKey.getBytes());
-        //删除指定列族的数据
-        if(colFamily!=null) {
-            delete.addFamily(colFamily.getBytes());
-        }
-        //删除指定列的数据
-        if(col!=null){
-            delete.addColumn(colFamily.getBytes(),col.getBytes());
-        }
 
-        table.delete(delete);
-        table.close();
-        close();
-    }
 
     /**
      * @Description: getData
